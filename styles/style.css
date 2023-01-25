@@ -1,3 +1,421 @@
-* {
-  background-color: black;
+/**Mobile**/
+@media screen and (max-width: 480px) {
+}
+
+:root {
+  --main-bg-color: #fffeca;
+  --main-txt-color: #0000ff;
+}
+html {
+  position: relative;
+  width: 1280px;
+  height: 8150px;
+  background: #fffeca;
+}
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 36px;
+  color: #0000ff;
+}
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0000ff;
+}
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  color: #0000ff;
+}
+h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 33px;
+  color: #0000ff;
+}
+.section-1 {
+  position: absolute;
+  width: 990px;
+  height: 248px;
+  left: 158px;
+  top: 55px;
+}
+.title {
+  position: absolute;
+  width: 116px;
+  height: 36px;
+  left: 80px;
+  top: 10px;
+}
+.subtitle {
+  position: absolute;
+  width: 380px;
+  height: 118px;
+  left: 80px;
+  top: 30px;
+}
+.logo {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 900px;
+  top: 10px;
+}
+.section-2 {
+  position: absolute;
+  width: 1160px;
+  height: 564px;
+  left: 60px;
+  top: -100px;
+}
+.foto-toekomst {
+  position: relative;
+  left: 110px;
+  top: 500px;
+  z-index: 11;
+}
+.section-3 {
+  position: absolute;
+  width: 950px;
+  height: 500px;
+  left: 312px;
+  top: 403px;
+  background: #ffffff;
+}
+.toekomst-title > h2 {
+  position: absolute;
+  width: 435px;
+  height: 38px;
+  left: 300px;
+  top: 50px;
+}
+.toekomst-paragraaf > h3 {
+  position: absolute;
+  width: 471px;
+  height: 396px;
+  left: 300px;
+  top: 100px;
+}
+.section-4 {
+  position: absolute;
+  width: 1085px;
+  height: 237px;
+  left: 97px;
+  top: -130px;
+}
+.cijfers-facts-title {
+  position: absolute;
+  width: 527px;
+  height: 32px;
+  left: 376px;
+  top: 1067px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: center;
+  color: #0000ff;
+}
+.cijfers-facts-buttons {
+  position: absolute;
+  width: 1085px;
+  height: 170px;
+  left: 97px;
+  top: 1134px;
+}
+.cijfers-facts-buttons > button {
+  border-radius: 50px;
+  width: 250px;
+  height: 50px;
+  gap: 20px;
+  text-align: left;
+  background: #ffe400;
+}
+/* pas op; heel veel button ID'S */
+#10-jaar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 20px;
+
+  position: absolute;
+
+  left: 113px;
+  top: 1134px;
+}
+#1-cto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 101px;
+  height: 50px;
+  left: 393px;
+  top: 1134px;
+}
+#2-kantoren {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 388px;
+  height: 50px;
+  left: 504px;
+  top: 1134px;
+}
+#30-collegas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 264px;
+  height: 50px;
+  left: 902px;
+  top: 1134px;
+}
+#7-leads {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 168px;
+  height: 50px;
+  left: 118px;
+  top: 1194px;
+}
+#85-blogs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 264px;
+  height: 50px;
+  left: 296px;
+  top: 1194px;
+}
+#500-projecten {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 319px;
+  height: 50px;
+  left: 50px;
+  top: 1194px;
+}
+#33-bomen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 235px;
+  height: 50px;
+  left: 899px;
+  top: 1194px;
+}
+#19-meetups {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 326px;
+  height: 50px;
+  left: 97px;
+  top: 1254px;
+}
+#8-masterclasses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 313px;
+  height: 50px;
+  left: 433px;
+  top: 1254px;
+}
+#136-classes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 229px;
+  height: 50px;
+  left: 756px;
+  top: 1254px;
+}
+#87-talks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+
+  position: absolute;
+  width: 187px;
+  height: 50px;
+  left: 995px;
+  top: 1254px;
+}
+/*einde van ID's */
+
+button > h3 {
+  position: relative;
+  width: 234px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  color: #0000ff;
+  flex: none;
+
+  bottom: 15px;
+}
+button > p {
+  position: relative;
+  width: 234px;
+  height: 30px;
+  color: #0000ff;
+  flex: none;
+
+  top: -70px;
+  text-align: left;
+  left: 45px;
+}
+
+.section-5 {
+  position: absolute;
+  width: 950px;
+  height: 500px;
+  right: 150px;
+  top: 1300px;
+  background: #ffffff;
+}
+.section-5 > h2 {
+  position: absolute;
+  width: 435px;
+  height: 38px;
+  left: 50px;
+  top: 60px;
+}
+.section-5 > h3 {
+  position: absolute;
+  width: 435px;
+  height: 38px;
+  left: 50px;
+  top: 120px;
+}
+.section-5 > button {
+  position: absolute;
+  width: 400px;
+  height: 38px;
+  left: 50px;
+  top: 380px;
+  background-color: #0000ff;
+  border-color: none;
+  color: white;
+}
+.foto-visie {
+  position: relative;
+  left: 600px;
+  top: 60px;
+  z-index: 11;
+}
+.section-6-foto-jasper {
+  position: relative;
+  right: 460px;
+  top: 60px;
+}
+.section-6-foto-jasper > image {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+.section-6 {
+  position: absolute;
+  width: 1048px;
+  height: 246px;
+  left: 500px;
+  top: 1900px;
+  text-align: left;
+}
+.section-6 > h2 {
+  position: absolute;
+  width: 435px;
+  height: 38px;
+  left: 50px;
+  top: 60px;
+}
+.section-6 > h3 {
+  position: absolute;
+  width: 600px;
+  height: 38px;
+  left: 50px;
+  top: 120px;
+}
+.section-6 > button {
+  position: absolute;
+  width: 400px;
+  height: 38px;
+  left: 50px;
+  top: 300px;
+  background-color: #0000ff;
+  border-color: none;
+  color: white;
 }
