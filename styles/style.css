@@ -378,11 +378,14 @@ button > p {
   z-index: 11;
 }
 .section-6-foto-jasper {
+  border: 0.5rem outset rgba(255, 192, 203, 0);
+  border-radius: 50%;
   position: relative;
-  right: 460px;
+  right: 300px;
   top: 60px;
 }
 .section-6-foto-jasper > image {
+  border: 0.5rem outset rgba(255, 192, 203, 0);
   border-radius: 50%;
   width: 350px;
   height: 350px;
