@@ -379,12 +379,12 @@ button > p {
 }
 .section-6-foto-jasper {
   border: 0.5rem outset rgba(255, 192, 203, 0);
-  border-radius: 50%;
+
   position: relative;
   right: 300px;
   top: 60px;
 }
-.section-6-foto-jasper > image {
+.section-6-foto-jasper > img {
   border: 0.5rem outset rgba(255, 192, 203, 0);
   border-radius: 50%;
   width: 350px;
@@ -398,6 +398,7 @@ button > p {
   top: 1900px;
   text-align: left;
 }
+
 .section-6 > h2 {
   position: absolute;
   width: 435px;
